@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C# Express 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Area", "Area\Area.csproj", "{0AA9361E-5187-4503-AEBC-5942AA864F40}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Area", "Area\Area\Area.csproj", "{0AA9361E-5187-4503-AEBC-5942AA864F40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carpet", "..\Carpet\Carpet.csproj", "{3FE1F21A-732E-4420-8154-F39021D288A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carpet", "Carpet\Carpet.csproj", "{3FE1F21A-732E-4420-8154-F39021D288A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoursandMinutes", "..\HoursandMinutes\HoursandMinutes.csproj", "{B7B5451C-F136-48E3-9EA6-FA579400E0F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoursandMinutes", "HoursandMinutes\HoursandMinutes.csproj", "{B7B5451C-F136-48E3-9EA6-FA579400E0F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eggs", "..\Eggs\Eggs.csproj", "{98057B8E-7A3E-4888-9A25-80B08C20ED70}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroll", "..\Payroll\Payroll.csproj", "{950C97BC-9C2B-4ED1-8F9F-B52C726E2C08}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroll", "Payroll\Payroll.csproj", "{950C97BC-9C2B-4ED1-8F9F-B52C726E2C08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{B7B5451C-F136-48E3-9EA6-FA579400E0F5}.Debug|x86.Build.0 = Debug|x86
 		{B7B5451C-F136-48E3-9EA6-FA579400E0F5}.Release|x86.ActiveCfg = Release|x86
 		{B7B5451C-F136-48E3-9EA6-FA579400E0F5}.Release|x86.Build.0 = Release|x86
-		{98057B8E-7A3E-4888-9A25-80B08C20ED70}.Debug|x86.ActiveCfg = Debug|x86
-		{98057B8E-7A3E-4888-9A25-80B08C20ED70}.Debug|x86.Build.0 = Debug|x86
-		{98057B8E-7A3E-4888-9A25-80B08C20ED70}.Release|x86.ActiveCfg = Release|x86
-		{98057B8E-7A3E-4888-9A25-80B08C20ED70}.Release|x86.Build.0 = Release|x86
 		{950C97BC-9C2B-4ED1-8F9F-B52C726E2C08}.Debug|x86.ActiveCfg = Debug|x86
 		{950C97BC-9C2B-4ED1-8F9F-B52C726E2C08}.Debug|x86.Build.0 = Debug|x86
 		{950C97BC-9C2B-4ED1-8F9F-B52C726E2C08}.Release|x86.ActiveCfg = Release|x86
