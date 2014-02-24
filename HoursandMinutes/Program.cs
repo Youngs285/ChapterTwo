@@ -9,18 +9,17 @@ namespace HoursandMinutes
     {
         static void Main(string[] args)
         {
-            string MinutesInput, HoursInput;
-            double Minutes, Hours;
+            string MinutesInput;
+            int Hours, RemainderMinutes, Minutes = 1;
 
-            Console.WriteLine("How many hours did you work today?");
+            Console.WriteLine("How many minutes did you work today?");
             MinutesInput = Console.ReadLine();
             Minutes = Convert.ToInt32(MinutesInput);
 
-            Console.WriteLine("How many minutes did you work today?");
-            HoursInput = Console.ReadLine();
-            Hours = Convert.ToInt32(HoursInput);
+            Hours = Minutes / 60;
+            RemainderMinutes = Minutes % 60;
 
-            Console.WriteLine("You worked {0} Hours and {1} Minutes today", Minutes, Hours);
+            Console.WriteLine("You have worked {0} hours and {1} minutes.", Hours, RemainderMinutes);
             
         }
     }

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoursandMinutes", "Hoursand
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroll", "Payroll\Payroll.csproj", "{950C97BC-9C2B-4ED1-8F9F-B52C726E2C08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eggs", "Eggs\Eggs.csproj", "{18DA69D5-CDE3-425A-85AC-EAC10D9808E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -31,6 +33,10 @@ Global
 		{950C97BC-9C2B-4ED1-8F9F-B52C726E2C08}.Debug|x86.Build.0 = Debug|x86
 		{950C97BC-9C2B-4ED1-8F9F-B52C726E2C08}.Release|x86.ActiveCfg = Release|x86
 		{950C97BC-9C2B-4ED1-8F9F-B52C726E2C08}.Release|x86.Build.0 = Release|x86
+		{18DA69D5-CDE3-425A-85AC-EAC10D9808E2}.Debug|x86.ActiveCfg = Debug|x86
+		{18DA69D5-CDE3-425A-85AC-EAC10D9808E2}.Debug|x86.Build.0 = Debug|x86
+		{18DA69D5-CDE3-425A-85AC-EAC10D9808E2}.Release|x86.ActiveCfg = Release|x86
+		{18DA69D5-CDE3-425A-85AC-EAC10D9808E2}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

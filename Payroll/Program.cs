@@ -10,7 +10,7 @@ namespace Payroll
         static void Main(string[] args)
         {
             string NameInput, SsNInput, PayRateInput, HoursWorkedInput;
-            float Name, SsN, PayRate, HoursWorked;
+            int Name, SsN, PayRate, HoursWorked;
 
             Console.Write("Enter your name:");
             NameInput = Console.ReadLine();
@@ -28,19 +28,19 @@ namespace Payroll
             HoursWorkedInput = Console.ReadLine();
             HoursWorked = Convert.ToInt32(HoursWorkedInput);
 
-            float GrossPay = PayRate * HoursWorked;
+            //float GrossPay = PayRate * HoursWorked;
 
-            int intGrossPay;
+            //int intGrossPay;
 
-            Console.WriteLine("Payroll Summary for:{0}", Name);
-            Console.WriteLine("SSN:{0}", SsN);
-            Console.WriteLine("You earned ${0} at ${1} per hour", PayRate, GrossPay);
+            //Console.WriteLine("Payroll Summary for:{0}", Name);
+            //Console.WriteLine("SSN:{0}", SsN);
+            //Console.WriteLine("You earned ${0} at ${1} per hour", PayRate, GrossPay);
 
-            intGrossPay = Convert.ToInt32(GrossPay);
+            //intGrossPay = Convert.ToInt32(GrossPay);
 
-            int FedTax = intGrossPay % 15;
+            //int FedTax = intGrossPay % 15;
 
-            Console.Write("Gross Pay:                  {0}", GrossPay);                 
+            //Console.Write("Gross Pay:                  {0}", GrossPay);                 
             
         }
     }

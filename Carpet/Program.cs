@@ -23,7 +23,7 @@ namespace Carpet
 
             Console.WriteLine("Please input the cost of carpet per square foot");
             CostInput = Console.ReadLine();
-            Cost = Convert.ToInt32(CostInput);
+            Cost = Convert.ToDouble(CostInput);
 
             double Area = Length * Width, TotalCost = Cost * Area;
 
